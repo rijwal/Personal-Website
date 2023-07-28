@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif; /* the font of the wesbite, the margins are also set in this code */
+}
+
+.main{
+    position: relative; /*background of website*/
+    width: 100%;
+    height: 100vh;
+    background-color: #FFFBEB;
+}
+
+nav{
+    background-color: #ADD8E6; /*nav bar*/
+    display: flex;
+    width: 100%;
+    margin: auto;
+    padding: 2px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{ /*nav bar for options such as such as about, hobbies, etc..*/
+    color: #263159;
+    display: inline-block;
+    list-style: none;
+    margin: 62px 40px;
+}
+
+nav ul li a{ /*nav bar border for words.*/
+    color: #263159; 
+    text-decoration: none;
+    background: #FFFBEB;
+    font-weight: bold;
+    padding: 10px 10px;
+    margin: 20px 0;
+    border-radius: 50px;
+}
+
+nav li a:hover { /*if user hovers it chnages to a grey*/
+    background-color: #D3D3D3;
+  }
+
+.info { /*psotioning*/
+    margin-left: 8%;
+    margin-top: 7%;
+}
+
+.info h1{ /*size and font for the main header (my name)*/
+    font-size: 60px;
+    color: #495579;
+    margin-bottom: 20px;
+}
+
+span{ /*colro change for aesthetics*/
+    color: orange;
+}
+
+.info p{ /*text for description*/
+    color: black;
+    line-height: 22px;
+}
+
+.info a{ /*contact me section*/
+    background: #263159;
+    text-decoration: none;
+    padding: 10px 18px;
+    font-weight: bold;
+    color: #FFFBEB;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.images{ /*formatting for images*/
+    width: 30%;
+    height: 20%;
+    position: absolute;
+    bottom: 50%;
+    right: 100px;
+    display: inline-block
+}
+
+.ab{ /*about me section*/
+    width: 100%;
+    height: 100vh;
+    background-color: #FFFBEB;
+
+}
+
+.ab h2 {/*about me main header*/
+    font-size: 30px;
+    color: #495579;
+    margin-top: 5%;
+    margin-bottom: 20px;
+    margin-left: 65%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}               
+
+.ab p{ /*about me main text and body*/
+    color: black;
+    line-height: 22px;
+    margin-left: 60%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    
+}
+
+.images2{ /*images*/
+    margin-top: -30%;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.images3{
+    margin-top: -33%;
+    margin-left: 120px;
+}
+
+
+.hobbies{ /*hobbies page formatting*/
+    width: 100%;
+    height: 100vh;
+    background-color: #FFFBEB;
+
+}
+
+.hobbies h2{ /*the main ehader for this section*/
+    font-size: 30px;
+    color: #495579;
+    margin-top: 2%;
+    margin-bottom: 50px;
+    margin-left: 40%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.hobbies p{ /*the text*/
+    color: black;
+    line-height: 22px;
+    margin-left: 5%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    margin-top: -1%;
+}
+
+.images4{ /*images*/
+    margin-left: 40%;
+    margin-top: -28%;
+}
+
+.images5{
+    margin-left: 70%;
+    margin-top: -13%;
+}
+
+.images6{
+    margin-left: 70%;
+    margin-top: 2%;
+}
+
+.images7{
+    margin-left: 40%;
+    margin-top: -15%
+}
+
+.contact{
+    position: relative; /*background of website*/
+    width: 100%;
+    height: 100vh;
+}
+
+.contact h2{
+    color: darkblue;
+    margin-left: 5%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-top: 2%;
+    word-spacing: 5%;
+}
+
+.images8{
+    margin-left: 50%;
+    margin-top: -10%;
+}
+
+
